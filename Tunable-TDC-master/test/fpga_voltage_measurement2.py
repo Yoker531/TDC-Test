@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import burn
 import numpy as np
 import matplotlib.pyplot as plt
