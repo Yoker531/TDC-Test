@@ -29,15 +29,41 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 ###############################################################################
+# BUILD_PATH=../../build
+# BOARD_PATH=../../constraints
+# IP_PATH=../../ip
+# BOARD=PYNQ_complete
+# PART=xc7z020clg400-1
+# DESIGN=picorv32
+# IPS=picorv32_axi pulsegen phase
+# VERSION=1.0
+# MMCM_TYPE=MMCME2_ADV
+# MMCM_LOC=X1Y0
+
+# include $(BUILD_PATH)/include.mk
+
+
 BUILD_PATH=../../build
 BOARD_PATH=../../constraints
 IP_PATH=../../ip
-BOARD=PYNQ_complete
-PART=xc7z020clg400-1
+
+# 目标板
+BOARD=VU9P_complete
+
+# FPGA 部件号（适用于 VU9P）
+PART=xcvu9p-flgb2104-2-i
+
+# 设计名称
 DESIGN=picorv32
+
+# 所需的 IP 核
 IPS=picorv32_axi pulsegen phase
+
+# 版本
 VERSION=1.0
-MMCM_TYPE=MMCME2_ADV
+
+# MMCM 配置
+MMCM_TYPE=MMCME3_ADV
 MMCM_LOC=X1Y0
 
 include $(BUILD_PATH)/include.mk
