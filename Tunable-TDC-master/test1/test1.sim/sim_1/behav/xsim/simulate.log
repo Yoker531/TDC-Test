@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+ Warning : The attribute INIT_44 on XADC instance sim_test1.uut.XADC_inst is set to 0800. This must be set to  0000h.
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance sim_test1.uut.XADC_inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
+Time = 0, Temp = xxxx, Vccint = xxxx
+DRC Error : DEN is enabled before DRDY returns on sim_test1.uut.XADC_inst instance
+$finish called at time : 15 ns : File "/wrk/2018.2/continuous/2018_06_14_2258646/data/verilog/src/unisims/XADC.v" Line 455
